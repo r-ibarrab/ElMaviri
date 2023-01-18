@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sistemas_inteligentes"
+version = "0.0.1"
+
+[tool.setuptools]
+py-modules = []

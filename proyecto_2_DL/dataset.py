@@ -153,6 +153,8 @@ def main():
 
         # Aumentar el tamaño de la imagen para visualizarla mejor
         viz_size = (200, 200)
+        print("aqui")
+        print(original[0].shape)
         original = cv2.resize(original, viz_size)
         transformed = cv2.resize(transformed, viz_size)
 
